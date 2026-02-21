@@ -153,3 +153,31 @@ See detailed documentation here:
 - Kerberos configuration
 - Service management via rc.d
 - Active Directory architecture
+
+---
+
+## 📸 Deployment Evidence
+
+### 1️⃣ Domain Provisioning
+
+![Provisioning Success](screenshots/01-domain-provision-success.png)
+
+Provisioning confirms:
+- Active Directory Domain Controller role
+- DNS domain (lab.local)
+- NetBIOS domain (LAB)
+- Generated domain SID
+
+---
+
+### 2️⃣ AD Infrastructure Validation
+
+![AD Validation](screenshots/02-ad-validation.png)
+
+Validation confirms:
+
+- SRV record registration via internal DNS  
+- Kerberos ticket issuance (`administrator@LAB.LOCAL`)  
+- Samba service running  
+
+This demonstrates a fully operational AD Domain Controller.
