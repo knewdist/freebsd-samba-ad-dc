@@ -182,3 +182,21 @@ Validation confirms:
 - Samba service running  
 
 This demonstrates a fully operational AD Domain Controller.
+
+
+### 4️⃣ Active Directory Computer Objects
+
+![AD Computer Objects](screenshots/04-ad-computer-objects.png)
+
+Output of:
+
+```
+samba-tool computer list
+```
+
+Confirms:
+
+- Domain Controller (DC1$)
+- Joined Windows 10 client (WIN10-BSD$)
+
+Machine accounts successfully created in Active Directory.
