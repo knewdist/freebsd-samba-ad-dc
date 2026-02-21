@@ -124,6 +124,14 @@ host -t SRV _ldap._tcp.lab.local
 
 Result confirmed LDAP service registration via internal DNS.
 
+
+## 📘 Troubleshooting & Lessons Learned
+
+See detailed documentation here:
+
+[docs/troubleshooting-lessons-learned.md](docs/troubleshooting-lessons-learned.md)
+
+
 ---
 
 ## 🚀 Next Steps
