@@ -167,6 +167,7 @@ Provisioning confirms:
 - DNS domain (lab.local)
 - NetBIOS domain (LAB)
 - Generated domain SID
+-The auto-generated Administrator password was rotated immediately after provisioning as a security best practice.
 
 ---
 

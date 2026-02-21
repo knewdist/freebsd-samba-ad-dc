@@ -102,6 +102,10 @@ service samba_server status
 
 ---
 
+The auto-generated Administrator password was rotated immediately after provisioning as a security best practice.
+
+
+
 ## Key Takeaways
 
 - Active Directory is DNS-dependent.
