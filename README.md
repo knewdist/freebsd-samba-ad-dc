@@ -183,6 +183,17 @@ Validation confirms:
 
 This demonstrates a fully operational AD Domain Controller.
 
+### 3️⃣ Windows 10 Domain Join
+
+![Windows Domain Joined](screenshots/03-windows-domain-joined.png)
+
+Windows 10 client successfully joined to LAB.LOCAL domain, confirming:
+
+- LDAP authentication
+- Kerberos ticket exchange
+- AD-integrated DNS resolution
+- Machine account creation in Active Directory
+
 
 ### 4️⃣ Active Directory Computer Objects
 
