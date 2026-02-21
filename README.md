@@ -160,7 +160,7 @@ See detailed documentation here:
 
 ### 1️⃣ Domain Provisioning
 
-![Provisioning Success](screenshots/01-domain-provision-success.png)
+![Provisioning Success](screenshots/01-domain-provision-success.jpg)
 
 Provisioning confirms:
 - Active Directory Domain Controller role
