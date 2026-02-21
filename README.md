@@ -239,7 +239,7 @@ This structure enables:
 
 ### OU Structure Validation
 
-![OU Structure](screenshots/06-ou-structure.png)
+![OU Structure](screenshots/06-ou-structure-validation.png)
 
 
 ### 4️⃣ Active Directory Computer Objects
