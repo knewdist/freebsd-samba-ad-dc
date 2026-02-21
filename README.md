@@ -211,3 +211,10 @@ Confirms:
 - Joined Windows 10 client (WIN10-BSD$)
 
 Machine accounts successfully created in Active Directory.
+
+
+### 5️⃣ Domain User Authentication
+
+![Domain User Login](screenshots/05-domain-user-login.png)
+
+Custom domain user successfully authenticated via Active Directory.
