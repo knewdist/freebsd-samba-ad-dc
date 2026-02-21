@@ -194,6 +194,53 @@ Windows 10 client successfully joined to LAB.LOCAL domain, confirming:
 - AD-integrated DNS resolution
 - Machine account creation in Active Directory
 
+---
+
+## 🗂 Organizational Unit (OU) Structure
+
+A structured OU hierarchy was created to simulate enterprise directory design.
+
+### Created OUs
+
+```
+OU=Users
+OU=Groups
+OU=Servers
+OU=Workstations
+```
+
+Created using:
+
+```
+samba-tool ou create "OU=Workstations,DC=lab,DC=local"
+samba-tool ou create "OU=Servers,DC=lab,DC=local"
+samba-tool ou create "OU=Users,DC=lab,DC=local"
+samba-tool ou create "OU=Groups,DC=lab,DC=local"
+```
+
+### Object Placement
+
+- `WIN10-BSD` moved to `OU=Workstations`
+- `DC1` remains in `OU=Domain Controllers`
+- `alan.user` moved to `OU=Users`
+
+Validated using:
+
+```
+samba-tool ou list
+samba-tool computer show WIN10-BSD
+samba-tool user show alan.user
+```
+
+This structure enables:
+- Group Policy targeting
+- Role-based separation
+- Scalable directory management
+
+### OU Structure Validation
+
+![OU Structure](screenshots/06-ou-structure.png)
+
 
 ### 4️⃣ Active Directory Computer Objects
 
